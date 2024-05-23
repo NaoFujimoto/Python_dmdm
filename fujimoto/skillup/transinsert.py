@@ -9,6 +9,8 @@ try:
     #引数→日付の取得
     dt = date(int(args[1][0:4]), int(args[1][4:6]), int(args[1][6:8]))
 
+    #いれる
+    #名前 = どのテーブル(列の名前 = いれるやつ, …)
     ins = Transport(
         date = dt,
         seq = args[2],
